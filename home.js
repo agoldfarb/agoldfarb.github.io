@@ -1,5 +1,6 @@
 $(document).ready( function() {
   $('.navigation_link').click(function() {
+    var linkId = $(this).attr('id');
     var box = $('.detailBox#' + linkId);
     $('.detailBox').not(box).fadeOut("fast",function(){
       box.fadeIn('fast');
