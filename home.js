@@ -9,7 +9,7 @@ $(document).ready( function() {
     //  hide all other boxes...
     $('.detailBox').not(box).fadeOut("fast",function(){
       //...and then show this one after
-      box.fadeIn('fast');
+      box.fadeIn('slow', 'linear');
     });
   });
   $('a.navigation_link#about').mouseover(function() {
