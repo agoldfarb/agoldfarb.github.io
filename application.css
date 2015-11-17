@@ -4,18 +4,18 @@
 
 div#container {
   text-align: left;
-  background-color: #ffff99;
+  background-color: white;
 }
 
 div#header {
   text-align: left;
-  background-color: #ffff99;
+  background-color: white;
   position: fixed;
   top: 10px;
   left: 50px;
   line-height: 30px;
   z-index: 100;
-  width: 50%;
+  width: 30%;
 }
 
 div#navigation {
@@ -50,7 +50,7 @@ ul {
 }
 
 body {
-  background-color: #ffff99;
+  background-color: white;
 }
 
 
@@ -71,11 +71,9 @@ p {
 #header a:link {
   color: navy;
 }
-h4 a:hover {
-  color: #ffa089;
-}
+
 #navigation a:hover {
-  color: #ffa089;
+  color: navy;
 }
 #header a:visited{
   color:navy;
@@ -85,7 +83,7 @@ a:link {
 }
 
 a:hover {
-  color: #ffa089;
+  color: #FFC0FF;
 }
 
 a:visited {
