@@ -36,5 +36,4 @@ $(document).ready( function() {
   $('span.contact').mouseleave(function () {
     $('span.contact').css({'background':'none'});
   });
-
 });
