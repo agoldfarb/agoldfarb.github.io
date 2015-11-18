@@ -30,4 +30,11 @@ $(document).ready( function() {
   $('h1').mouseleave(function () {
     $('h1').css({'background':'none'});
   });
+  $('.detailBox#contact').mouseover(function() {
+    $('.detailBox#contact').css({'text-dec':'#FFC0FF'});
+  });
+  $('.detailBox#contact').mouseleave(function () {
+    $('.detailBox#contact').css({'background':'none'});
+  });
+
 });

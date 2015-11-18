@@ -36,7 +36,7 @@ div.detailBox {
   font-size: 20px;
   line-height: 24px;
   text-align: left;
-  padding: 10px;
+  padding: 2px;
   display: none;
 }
 
@@ -80,10 +80,6 @@ p {
 }
 a:link {
   color: navy;
-}
-
-a:hover {
-  color: #FFC0FF;
 }
 
 a:visited {
