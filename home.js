@@ -30,11 +30,11 @@ $(document).ready( function() {
   $('h1').mouseleave(function () {
     $('h1').css({'background':'none'});
   });
-  $('.detailBox#contact').mouseover(function() {
-    $('.detailBox#contact').css({'text-dec':'#FFC0FF'});
+  $('span.contact').mouseover(function() {
+    $('span.contact').css({'background':'#FFC0FF'});
   });
-  $('.detailBox#contact').mouseleave(function () {
-    $('.detailBox#contact').css({'background':'none'});
+  $('span.contact').mouseleave(function () {
+    $('span.contact').css({'background':'none'});
   });
 
 });
